@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.logout-btn{
+    position: fixed;
+    bottom: 8rem;
+    right: 3rem;
+    height: 4rem;
+    border-radius: 50%;
+    width: 4rem;
+    border: 0px;
+}
+.profile-btn{
+  position: fixed;
+  bottom: 14rem;
+  right: 3rem;
+  height: 4rem;
+  border-radius: 50%;
+  width: 4rem;
+  border: 0px;
+}
+.upload-btn{
+  position: fixed;
+  bottom: 2rem;
+  right: 2.6rem;
+  height: 4rem;
+  width: 5rem;
+  border: 0px;
+}
+.post-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    overflow-y: scroll;
+    scroll-snap-type:y mandatory;
+}
+.video-card{
+    height: 100%;
+    width: 30rem;
+    border: 1px solid white;
+    margin: auto;
+    position: relative;
+    scroll-snap-align: start;
+    
+}
+video{
+    height: 100%;
+    width:100%;
+    object-fit:cover;
+}
+.like {
+    font-size: 40px;
+    color: #d63031;
+    position: absolute;
+    bottom: 20vh;
+    right: 10px;
+  }
+  
+  .comment {
+    font-size: 35px;
+    position: absolute;
+    bottom: 13vh;
+    right: 10px;
+    color: white;
+  }
+  .username{
+   position:absolute;
+   bottom: 20vh;
+   left: 20px;
+   color: white;
+  }
+  .song{
+    position: absolute;
+    left: 20px;
+    bottom: 16vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+  }
+  .comment-box {
+    height: 45%;
+    width: 100%;
+    background: white;
+    position: absolute;
+    bottom: 0;
+  }
+  .comment-close-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    color: #0984e3;
+    height: 10%;
+  }
+ .all-comments{
+  height: 80%;
+  width: 100%;
+ 
+  margin-top: 4.5vh;
+ }
+ .comment-form{
+  height: 10%;
+  width: 100%;
+ }
+ .comment-form input{
+height: 100%;
+width: 80%;
+border: none;
+
+ }
+ .comment-form button{
+  height: 100%;
+  width: 20%;
+  border: none;
+  color: #0984e3;
+ }
+
+ img{
+   border-radius: 50%;
+   height: 3rem;
+   width: 3rem;
+ }
+
+ .comments{
+   display: flex;
+   padding: 8px;
+  }
+  .comments > div{
+    margin-left: 20px;
+  }
+  .comments div p{
+    margin-top: -4px;
+  }
+
